@@ -13,10 +13,7 @@ export type TExperience = {
 
 export type TTestimonial = {
   testimonial: string;
-  designation: string;
-  company: string;
-  image: string;
-} & Required<Pick<TCommonProps, "name">>;
+};
 
 export type TProject = {
   description: string;
@@ -24,7 +21,6 @@ export type TProject = {
     name: string;
     color: string;
   }[];
-  image: string;
   sourceCodeLink: string;
 } & Required<Pick<TCommonProps, "name">>;
 

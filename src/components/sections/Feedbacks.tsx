@@ -10,10 +10,7 @@ import { config } from "../../constants/config";
 const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
   index,
   testimonial,
-  name,
-  designation,
-  company,
-  image,
+  
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
@@ -26,19 +23,9 @@ const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
 
       <div className="mt-7 flex items-center justify-between gap-1">
         <div className="flex flex-1 flex-col">
-          <p className="text-[16px] font-medium text-white">
-            <span className="blue-text-gradient">@</span> {name}
-          </p>
-          <p className="text-secondary mt-1 text-[12px]">
-            {designation} of {company}
-          </p>
         </div>
 
-        <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className="h-10 w-10 rounded-full object-cover"
-        />
+
       </div>
     </div>
   </motion.div>
@@ -56,7 +43,7 @@ const Feedbacks = () => {
         className={`${styles.paddingX} -mt-20 flex flex-wrap gap-7 pb-14 max-sm:justify-center`}
       >
         {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
+          <FeedbackCard key={index} index={index} {...testimonial} />
         ))}
       </div>
     </div>

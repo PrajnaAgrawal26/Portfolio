@@ -25,13 +25,17 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  IITJ,
   tesla,
   shopify,
   carrent,
   jobit,
+  python,
   tripguide,
   threejs,
+  s,
+  hf,
+
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -55,7 +59,7 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Quantitative Developer",
     icon: mobile,
   },
   {
@@ -63,19 +67,19 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "ML Enthusiast",
     icon: creator,
   },
 ];
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "C++",
+    icon: s,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "C++",
+    icon: hf,
   },
   {
     name: "JavaScript",
@@ -90,12 +94,8 @@ const technologies: TTechnology[] = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Pytorch",
     icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
@@ -106,16 +106,17 @@ const technologies: TTechnology[] = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "C++",
     icon: threejs,
   },
   {
+    name: "C++",
+    icon: python,
+  },
+  
+  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -125,149 +126,129 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Undergraduate Researcher",
+    companyName: "IIT Jodhpur",
+    icon: IITJ,
+    iconBg: "#E6DEDD",
+    date: "August 2024 - April 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Involves implementation and improvisation of Kolmogorov Arnold Networks.",
+      "Analyzed the implementation of KATs",
+      "Optimized the GR-KANs with the principles of LwF and Icarl",
+      "TechStack: PyTorch, HuggingFace, Transformers, Scikit-learn",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "Winner of Code For Good'25",
+    companyName: "JP Morgan Chase & Co.",
     icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    iconBg: "#FFFFFF",
+    date: "June 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a real-time student metrics dashboard with clear visualizations to track academic and qualitative progress.",
+      "Enabled offline-first functionality via CSV uploads and printable quiz formats to support low-connectivity environments.",
+      "Built automatic personalized PDF report generation with multilingual support.",
+      "Used a scalable MERN + FastAPI stack with LangChain and Nginx reverse proxy.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: "Contingent Member at Inter-IIT Tech Meet 13.0",
+    companyName: "Untrade",
     icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    iconBg: "#00072D",
+    date: "October 2024-December 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Dynamic portfolio manager selects optimal strategy every 7 days using performance metrics", "Combined multiple BTC/ETH strategies tailored for different market conditions", "Used Kalman Filters and CHOP to reduce noise and avoid false signals", "ATR-based SL/TP and Sharpe ratio filtering ensured effective risk management",
     ],
   },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   companyName: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials: TTestimonial[] = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: "Achieved a rank of 5760 from 1.8 lakh students in JEE Advanced 2023",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial:"Have a stellar 9.44 CGPA at the end of 4th Semester with Departmental Rank 6 among 100+ students.",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial:"Winner of Code For Good'25 Hackathon organized by JP Morgan Chase & Co.",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Agent Opera",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "AgentOpera is a system designed to act as an Operating System (OS) Controlling Agent, leveraging AI models and heuristic task management techniques. The project integrates OmniParser, a vision-based GUI parsing tool, to enable seamless interaction with graphical user interfaces (GUIs) and execute tasks autonomously. ",
     tags: [
       {
-        name: "react",
+        name: "OmniParser",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Flask",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "VLMs",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/PrajnaAgrawal26/AgentOpera",
   },
   {
-    name: "Job IT",
+    name: "Image-Retrieval",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project implements an image retrieval system using machine learning techniques. The system is designed to classify images from the CIFAR-10 dataset and retrieve visually similar images based on the predicted class.",
     tags: [
       {
-        name: "react",
+        name: "Traditional ML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Google Cloud",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Streamlit",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/PrajnaAgrawal26/Image-Retrieval_PRML",
   },
   {
-    name: "Trip Guide",
+    name: "Movie Recommendation System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This project is a movie recommendation system implemented in C++ that uses bipartite graph. The system leverages cosine similarity to compare genre frequencies, identifies similar movies, and ranks them based on average ratings.",
     tags: [
       {
-        name: "nextjs",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "FastAPI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Graphs",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+
+    sourceCodeLink: "https://github.com/PrajnaAgrawal26/Graph-Recommendation-System",
   },
 ];
 
