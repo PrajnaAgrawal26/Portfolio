@@ -67,7 +67,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a passionate developer with a strong interest in building both intuitive user interfaces and intelligent systems.I'm a fast learner who loves turning complex ideas into real, usable tools—whether it's through thoughtful design, smart modeling, or efficient code. Let’s bring something meaningful to life together`,
+      content: `I'm a passionate developer with a strong interest in building both intuitive user interfaces and intelligent systems. I'm a fast learner who loves turning complex ideas into real, usable tools—whether it's through thoughtful design, smart modeling, or efficient code. Let’s bring something meaningful to life together`,
     },
     experience: {
       p: "What I have done so far",
@@ -82,9 +82,7 @@ export const config: TConfig = {
       h2: "Projects.",
       content: `Following projects showcases my skills and experience through
     real-world examples of my work. Each project is briefly described with
-    links to code repositories . It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+    links to code repositories .`,
     },
   },
 };
